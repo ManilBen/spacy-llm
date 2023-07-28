@@ -6,6 +6,7 @@ from .stablelm import stablelm_hf
 from .vicuna import vicuna_hf
 from .vigogne import vigogne2_hf
 from .llama2 import llama2_hf
+from .fast_llama import fastllama2_hf
 
 __all__ = [
     "HuggingFace",
@@ -15,5 +16,6 @@ __all__ = [
     "stablelm_hf",
     "vicuna_hf",
     "vigogne2_hf",
-    "llama2_hf"
+    "llama2_hf",
+    "fastllama2_hf"
 ]
